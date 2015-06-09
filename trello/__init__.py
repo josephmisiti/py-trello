@@ -759,8 +759,8 @@ class Card(object):
         self.client = parent.client
         self.id = card_id
         self.name = name
-        self._checklists = None
-        self.checked = []
+        # self._checklists = None
+        # self.checked = []
         
     @classmethod
     def from_json(cls, parent, json_obj):
