@@ -10,7 +10,7 @@ for feature requests, discussion and some development tracking.
 Install
 =======
 
-    pip install py-trello
+    pip uninstall py-trello && pip install git+https://github.com/josephmisiti/py-trello.git
 
 Usage
 =====
