@@ -760,6 +760,7 @@ class Card(object):
         self.id = card_id
         self.name = name
         self._checklists = None
+        self.checked = False
         
     @classmethod
     def from_json(cls, parent, json_obj):
